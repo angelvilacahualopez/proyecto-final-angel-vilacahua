@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comida rápida</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="comida">
+  <div class="food-app">
+    <header class="food-topbar">
+      <a href="inicio.html" class="back-btn">←</a>
+      <h1>Comida rápida</h1>
+      <button class="cart-btn">🛒</button>
+    </header>
+    <p class="food-subtitle">Comida rápida</p>
+    <div class="food-main">
+      <div class="food-column-left">
+        <div class="food-card main">
+          <div class="food-category-row">
+            <button class="food-cat active">🍔</button>
+            <button class="food-cat">🍣</button>
+            <button class="food-cat">🍺</button>
+            <button class="food-cat">🥗</button>
+          </div>
+          <div class="food-items">
+            <article class="food-item">
+              <img src="./img/plato1.png" alt="Ramen">
+              <h3>Ramen</h3>
+              <p>Ramen con brochetas de pollo.</p>
+              <div class="food-item-footer">
+                <span class="price">24.00 Bs</span>
+                <button class="fav-btn">♡</button>
+              </div>
+            </article>
+            <article class="food-item">
+              <img src="./img/plato2.png" alt="Pollo a la plancha">
+              <h3>Pollo a la plancha</h3>
+              <p>Pollo a la plancha con verduras.</p>
+              <div class="food-item-footer">
+                <span class="price">12.00 Bs</span>
+                <button class="fav-btn">♡</button>
+              </div>
+            </article>
+          </div>
+          <article class="food-bottom-highlight">
+            <div class="food-bottom-text">
+              <h3>Huevos con especias</h3>
+              <p>Huevos con especias, comida nutritiva.</p>
+              <span class="price">15.00 Bs</span>
+            </div>
+            <img src="./img/plato3.png" alt="Huevos con especias">
+          </article>
+        </div>
+      </div>
+      <div class="food-column-right">
+        <div class="food-card detail">
+          <button class="back-icon">←</button>
+          <img src="./img/plato3.png" alt="Huevos con especias" class="food-big-img">
+          <div class="food-detail-content">
+            <h2>Huevos con especias</h2>
+            <div class="food-detail-info">
+              <span>25 minutos</span>
+            </div>
+            <p class="food-detail-text">
+              Huevos con especias muy nutritivos,
+              preparados con aceite vegetal,
+              rebanadas de tomate,
+              pepino y un toque de orégano.
+            </p>
+            <div class="food-detail-bottom">
+              <div class="food-total">
+                <span>Precio total</span>
+                <strong>15.00 Bs</strong>
+              </div>
+              <button class="fav-btn circle">♡</button>
+              <button class="add-cart-btn">
+                Añadir al carrito <span>+</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

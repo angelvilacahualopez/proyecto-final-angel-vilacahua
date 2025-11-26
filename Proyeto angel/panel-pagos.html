@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de pagos</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="panel-pagos">
+  <div class="pagos-layout">
+    <aside class="pagos-sidebar">
+      <div class="pagos-logo">💳</div>
+      <nav class="pagos-nav">
+        <a href="inicio.html" class="pagos-nav-item active">🏠</a>
+        <a href="#" class="pagos-nav-item">💸</a>
+        <a href="#" class="pagos-nav-item">📊</a>
+        <a href="#" class="pagos-nav-item">⚙️</a>
+      </nav>
+    </aside>
+    <main class="pagos-main">
+      <header class="pagos-header">
+        <div>
+          <h1>Pagina Web de pagos</h1>
+          <p>Actualizaciones de pagos y movimientos recientes</p>
+        </div>
+        <div class="pagos-search">
+          <input type="text" placeholder="Buscar transacciones...">
+        </div>
+      </header>
+      <section class="pagos-quick-actions">
+        <article class="pagos-card-mini">
+          <p>Transferencia por número de tarjeta</p>
+          <strong>1.200 BS</strong>
+        </article>
+        <article class="pagos-card-mini">
+          <p>Transferencia a otro banco</p>
+          <strong>1.500 BS</strong>
+        </article>
+        <article class="pagos-card-mini">
+          <p>Transferencia mismo banco</p>
+          <strong>750 BS</strong>
+        </article>
+        <article class="pagos-card-mini">
+          <p>Transferencia programada</p>
+          <strong>1.500 BS</strong>
+        </article>
+      </section>
+      <section class="pagos-main-panel">
+        <div class="pagos-balance-card">
+          <div class="pagos-balance-header">
+            <span>Saldo</span>
+            <span class="pagos-ghost">Últimos 12 meses</span>
+          </div>
+          <p class="pagos-balance-amount">1.500 BS</p>
+          <div class="pagos-bars">
+            <div class="pagos-bar" style="height:25%"><span>ENE</span></div>
+            <div class="pagos-bar" style="height:40%"><span>FEB</span></div>
+            <div class="pagos-bar" style="height:60%"><span>MAR</span></div>
+            <div class="pagos-bar" style="height:55%"><span>ABR</span></div>
+            <div class="pagos-bar" style="height:80%"><span>MAY</span></div>
+            <div class="pagos-bar" style="height:65%"><span>JUN</span></div>
+            <div class="pagos-bar" style="height:45%"><span>JUL</span></div>
+            <div class="pagos-bar" style="height:70%"><span>AGO</span></div>
+            <div class="pagos-bar" style="height:50%"><span>SEP</span></div>
+            <div class="pagos-bar" style="height:60%"><span>OCT</span></div>
+            <div class="pagos-bar" style="height:75%"><span>NOV</span></div>
+            <div class="pagos-bar" style="height:35%"><span>DIC</span></div>
+          </div>
+        </div>
+        <div class="pagos-history-card">
+          <div class="pagos-history-header">
+            <h2>Historial</h2>
+            <span class="pagos-ghost">Últimos 6 meses</span>
+          </div>
+          <table class="pagos-table">
+            <thead>
+              <tr>
+                <th>Transacción</th>
+                <th>Fecha</th>
+                <th>Monto</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Seguro del auto</td>
+                <td>10/02/2025</td>
+                <td>350.00 BS</td>
+                <td class="ok">Completado</td>
+              </tr>
+              <tr>
+                <td>Préstamo</td>
+                <td>12/02/2025</td>
+                <td> 2.000 BS</td>
+                <td class="ok">Completado</td>
+              </tr>
+              <tr>
+                <td>Pago en línea</td>
+                <td>16/02/2025</td>
+                <td>154 BS</td>
+                <td class="ok">Completado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <aside class="pagos-sidepanel">
+      <section class="pagos-card-black">
+        <div class="pagos-card-chip"></div>
+        <div class="pagos-card-number">4562 1122 4595 7852</div>
+        <div class="pagos-card-bottom">
+          <span>Angel Vilacahua Lopez</span>
+          <div class="pagos-card-brands">
+            <span></span><span></span>
+          </div>
+        </div>
+      </section>
+      <section class="pagos-activities">
+        <h3>Actividades recientes</h3>
+        <ul>
+          <li>
+            <div>
+              <p>Pago de agua</p>
+              <span>Correcto</span>
+            </div>
+            <strong>120 BS</strong>
+          </li>
+          <li>
+            <div>
+              <p>Salario recibido</p>
+              <span>Correcto</span>
+            </div>
+            <strong>4.500 BS</strong>
+          </li>
+          <li>
+            <div>
+              <p>Factura de luz</p>
+              <span>Correcto</span>
+            </div>
+            <strong>150 BS</strong>
+          </li>
+        </ul>
+      </section>
+      <section class="pagos-activities pagos-upcoming">
+        <h3>Pagos próximos</h3>
+        <ul>
+          <li>
+            <div>
+              <p>Alquiler de casa</p>
+              <span>Pendiente</span>
+            </div>
+            <strong>1.200 BS</strong>
+          </li>
+          <li>
+            <div>
+              <p>Seguro del auto</p>
+              <span>Pendiente</span>
+            </div>
+            <strong>350 BS</strong>
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+</body>
+</html>

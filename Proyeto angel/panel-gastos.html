@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de gastos</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="panel-gastos">
+  <div class="gastos-page">
+    <header class="gastos-header">
+      <div>
+        <a href="inicio.html" class="gastos-back">← Volver al inicio</a>
+        <h1>Panel de gastos</h1>
+        <p>Resumen general de gastos, clientes y archivos</p>
+      </div>
+      <button class="gastos-btn">Descargar reporte</button>
+    </header>
+    <main class="gastos-grid">
+      <section class="g-card g-expenses">
+        <h2>Gastos</h2>
+        <p class="g-label">Total este año</p>
+        <p class="g-main-amount">349.000 BS</p>
+        <p class="g-change g-down">▼ -36%</p>
+        <button class="g-ghost-btn">Ver todos los periodos</button>
+      </section>
+      <section class="g-card g-customers">
+        <h2>Clientes</h2>
+        <div class="g-customer-select">
+          <span>ABC Muebles</span>
+          <span>▾</span>
+        </div>
+        <div class="g-customer-box">
+          <div class="g-customer-row">
+            <span class="g-small-label">BANCO UNION</span>
+            <span class="g-tag">Cuenta activa</span>
+          </div>
+          <div class="g-customer-row">
+            <span>Ingresos</span>
+            <span class="g-income">1.346 BS</span>
+          </div>
+          <div class="g-customer-row">
+            <span>Gastos</span>
+            <span class="g-expense">1.000 BS</span>
+          </div>
+        </div>
+        <div class="g-customer-footer">
+          <span>Grupo de medios</span>
+          <span class="g-dot-menu">...</span>
+        </div>
+      </section>
+      <section class="g-card g-circle">
+        <div class="g-circle-tabs">
+          <button class="active">Semana</button>
+          <button>Día</button>
+          <button>Mes</button>
+        </div>
+        <div class="g-circle-main">
+          <div class="g-circle-chart">
+            <div class="g-circle-inner">
+              <span class="g-circle-amount">2.000 BS</span>
+              <span class="g-circle-label">Gastado</span>
+            </div>
+          </div>
+          <div class="g-circle-legend">
+            <div><span class="dot dot-blue"></span>Gasto</div>
+            <div><span class="dot dot-orange"></span>Referidos</div>
+          </div>
+        </div>
+      </section>
+      <section class="g-card g-files">
+        <div class="g-files-header">
+          <div>
+            <h2>Archivos y materiales adicionales</h2>
+            <p class="g-label">Documentos recientes del equipo financiero</p>
+          </div>
+          <span class="g-dot-menu">...</span>
+        </div>
+        <ul class="g-file-list">
+          <li>
+            <div class="g-file-main">
+              <span class="g-file-icon">📄</span>
+              <a href="#">Análisis de costos contables</a>
+            </div>
+            <span class="g-file-user">@admin1</span>
+            <span class="g-badge g-badge-yellow">Validación de datos</span>
+          </li>
+          <li>
+            <div class="g-file-main">
+              <span class="g-file-icon">📄</span>
+              <a href="#">Registro de claves</a>
+            </div>
+            <span class="g-file-user">@admin1</span>
+            <span class="g-badge g-badge-purple">Orden de vendedor</span>
+          </li>
+          <li>
+            <div class="g-file-main">
+              <span class="g-file-icon">📄</span>
+              <a href="#">Grupo de precios</a>
+            </div>
+            <span class="g-file-user">@admin1</span>
+            <span class="g-badge g-badge-yellow">Validación de datos</span>
+          </li>
+          <li>
+            <div class="g-file-main">
+              <span class="g-file-icon">📄</span>
+              <a href="#">Nomenclatura en precios</a>
+            </div>
+            <span class="g-file-user">@admin1</span>
+            <span class="g-badge g-badge-purple">Orden de vendedor</span>
+          </li>
+        </ul>
+      </section>
+      <section class="g-card g-overview">
+        <h2>Resumen</h2>
+        <div class="g-overview-item">
+          <div>
+            <p class="g-small-label">Ingresos</p>
+            <p class="g-over-amount">590.000 BS</p>
+          </div>
+          <span class="g-up">▲</span>
+        </div>
+        <div class="g-overview-item">
+          <div>
+            <p class="g-small-label">Ingreso neto</p>
+            <p class="g-over-amount">49.000 BS</p>
+          </div>
+          <span class="g-up">▲</span>
+        </div>
+        <button class="g-overview-btn">Ver detalles</button>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
